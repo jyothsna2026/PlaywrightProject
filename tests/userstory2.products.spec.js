@@ -4,7 +4,7 @@ import clothing from '../testData/products.data.json';
 import { ProductHelpers } from '../helpers/productHelpers';
 //import {faker} from '@faker-js/faker';
 
-test.describe.serial('Add new clothing items to the product catalogue', () => {
+test.describe.serial('UserStory2 - Add new clothing items to the product catalogue', () => {
 
     /**
      As a store manager, I want to add three new clothing items to the product catalogue.

@@ -28,6 +28,7 @@ test('API: Cart should reject invalid product ID - API gap', async({request}) =>
  const response = await cartApi.addToCart(users.shopping_UserID, negativeData.invalidProduct.invalidProductId, category.productQuantity);
  expect(response).toHaveProperty('id');
  expect(response.products).toBeDefined();
+ console.log("Inavalid Product ID Test",response);
 
  //FakeStore API allows invalid product IDs
    const productExistsInCart = response.products.some(
