@@ -1,0 +1,31 @@
+{
+    "clothingProducts":
+    [
+        {
+             "title": "Men Casual Shirt",
+             "price": 13.5,
+            "description": "Men Casual Shirt",
+            "image": "https://i.pravatar.cc",
+            "category": "men's clothing"
+        },
+
+
+        {
+            "title": "Women Summer Dress",
+             "price": 30.5,
+            "description": "Women Summer Dress",
+            "image": "https://i.pravatar.cc",
+            "category": "women's clothing"
+        },
+
+
+        {
+            "title": "Unisex hoodie",
+             "price": 25.5,
+            "description": "Hoodie for all",
+            "image": "https://i.pravatar.cc",
+            "category": "clothing"
+        }
+    
+    ]
+}

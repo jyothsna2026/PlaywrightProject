@@ -1,0 +1,11 @@
+{
+  "invalidProduct" : {
+  "invalidProductId": 9999,
+  "nonExistentProductId": 7777
+},
+
+"incorrectQuantity":{
+  "zeroQuantity": 0,
+  "negativeQuantity": -1
+}
+}
