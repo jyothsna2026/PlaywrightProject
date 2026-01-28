@@ -1,6 +1,6 @@
 {
   "invalidProduct" : {
-  "invalidProductId": 9999,
+  "invalidProductId": "abc",
   "nonExistentProductId": 7777
 },
 

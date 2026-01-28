@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { ProductApi } from '../apiPOM/productApi';
+import { ProductApi } from '../apiPOM/ProductApi';
 import { productSchema } from '../helpers/productSchemaValidator';
 
 test.describe('Product API Contract Tests', () => {

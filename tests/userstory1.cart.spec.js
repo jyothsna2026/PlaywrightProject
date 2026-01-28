@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { ProductApi } from '../apiPOM/productApi';
+import { ProductApi } from '../apiPOM/ProductApi';
 import { CartApi } from '../apiPOM/cartApi';
 import { ProductHelpers } from '../helpers/productHelpers';
 import users from '../testData/users.data.json';

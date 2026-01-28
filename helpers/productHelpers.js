@@ -10,8 +10,8 @@ export class ProductHelpers
                 result.push(product);
             }
         }
-        return result;
-    }
+        return result; 
+     }
 
 
     static filterInStock(products)

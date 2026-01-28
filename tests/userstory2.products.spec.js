@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { ProductApi } from '../apiPOM/productApi';
+import { ProductApi } from '../apiPOM/ProductApi';
 import clothing from '../testData/products.data.json';
 import { ProductHelpers } from '../helpers/productHelpers';
 //import {faker} from '@faker-js/faker';

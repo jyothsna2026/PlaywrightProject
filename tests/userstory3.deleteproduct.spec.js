@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test'
-import { ProductApi } from '../apiPOM/productApi';
+import { ProductApi } from '../apiPOM/ProductApi';
 import { ProductHelpers } from '../helpers/productHelpers';
 
 test.describe.serial('userstory3 - delete the product with the lowest rating from the store', () => {

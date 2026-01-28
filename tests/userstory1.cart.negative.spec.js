@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';
-import { ProductApi } from '../apiPOM/productApi';
+import { ProductApi } from '../apiPOM/ProductApi';
 import { CartApi } from '../apiPOM/cartApi';
 import users from '../testData/users.data.json';
 import negativeData from '../testData/negativeCases.data.json';
@@ -20,7 +20,7 @@ await expect(async()=> {
 
 })
 
-test('API: Cart should reject non-existent product ID - API gap', async({request}) =>
+test('API: Cart should reject invalid product ID - API gap', async({request}) =>
 {
 
  const cartApi = new CartApi(request);
